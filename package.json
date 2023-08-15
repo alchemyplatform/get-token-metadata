@@ -1,0 +1,16 @@
+{
+  "name": "get-token-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get_metadata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-sdk": "^2.9.2",
+    "dotenv": "^16.3.1"
+  }
+}
