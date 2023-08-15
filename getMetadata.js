@@ -3,7 +3,7 @@ const { Alchemy, Network } = require("alchemy-sdk");
 require('dotenv').config();
 
 const config = {
-  apiKey: process.env.API_KEY,
+  apiKey: process.env.ALCHEMY_API_KEY,
   network: Network.ETH_MAINNET,
 };
 const alchemy = new Alchemy(config);
